@@ -1,0 +1,7 @@
+{
+    "title": "Google Inc.",
+    "description": "Adding components to the virtualization engine of GCE. The\nmain purpose was to improve the SCSI drive connection to support the use of CDs\nand incorporate it with the testing platform.",
+    "img": "img/portfolio/gce.png",
+    "position": "Software Development Intern",
+    "dates": "6/15 – 9/15"
+  }

@@ -1,0 +1,7 @@
+{
+    "title": "A security analysis of the IoT device Vibease",
+    "description": "Vibease is an IoT vibrator that connects to a cellphone to enable several features across the web. Due to the sensibility of knowing wherether a user possesses a sexual toy, several security concerns are raised. We explored the security of this device across all of its comunications.",
+    "img": "img/portfolio/vibease2.jpg",
+    "dates": "7/17",
+    "link": "files/vibease.pdf"
+  }
