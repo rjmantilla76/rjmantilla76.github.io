@@ -22,6 +22,7 @@
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
 
+
 </head>
 
 <body id="page-top">
@@ -29,7 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">rjmantilla76 - a lifetime</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -38,13 +39,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#work-exp">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#school">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#languages">Skills</a>
           </li>
         </ul>
       </div>
@@ -57,17 +58,18 @@
       <img class="img-fluid img-profile" src="img/profile.jpg" alt="Profile Picture of Me">
       <div class="intro-text">
         <span class="name">Rafael J. Mantilla</span>
-        <span class="skills">Mathematician/Algorithm Designer/<span id=edad></span> old.</span>
+        <span class="skills">Mathematician/Algorithm Designer/<span id=edad></span> old.<br> </span>
+        <span class="skills">rj.mantilla76@uniandes.edu.co</span>
       </div>
     </div>
   </header>
 
   <!-- Work Experience -->
-  <section class="exp">
+  <section class="exp" id="work-exp">
     <div class="container">
       <h2 class="text-center">Work Experience</h2>
       <div class="row">
-        <div class="col-sm-3 exp-item">
+        <div class="col-md-3 exp-item">
           <figure class="image-link" href="#workModal" data-toggle="modal" onclick="loadJSON( 'imexhs' )">
             <div class="caption">
               <div class="caption-content">
@@ -77,7 +79,7 @@
             <img class="img-fluid img-exp" src="img/portfolio/imexhs.png" alt="">
           </figure>
         </div>
-        <div class="col-sm-3 exp-item">
+        <div class="col-md-3 exp-item">
           <figure class="image-link" data-target="#workModal" data-toggle="modal" onclick="loadJSON('google')">
             <div class="caption">
               <div class="caption-content mask-center">
@@ -88,7 +90,7 @@
           </figure>
         </div>
 
-        <div class="col-sm-3 exp-item">
+        <div class="col-md-3 exp-item">
           <figure class="image-link" href="#workModal" data-toggle="modal" onclick="loadJSON('uniandes')">
             <div class="caption">
               <div class="caption-content">
@@ -98,7 +100,7 @@
             <img class="img-fluid img-exp" src="img/portfolio/uniandes.png" alt="">
           </figure>
         </div>
-        <div class="col-sm-3 exp-item">
+        <div class="col-md-3 exp-item">
           <figure class="image-link" href="#workModal" data-toggle="modal" onclick="loadJSON('olimpiadas')">
             <div class="caption">
               <div class="caption-content">
@@ -112,11 +114,12 @@
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="success">
+  <!-- School Projects -->
+  <section class="success" id="school">
+    <div class="container">
       <h2 class="text-center">School Projects</h2>
       <div class="row">
-        <div class="col-sm-4 exp-item">
+        <div class="col-md-4 exp-item">
           <figure class="image-link" href="#workModal" data-toggle="modal" onclick="loadJSON( 'vibease' )">
             <div class="caption">
               <div class="caption-content">
@@ -126,18 +129,18 @@
             <img class="img-fluid img-exp" src="img/portfolio/vibease1.png" alt="">
           </figure>
         </div>
-        <div class="col-sm-4 exp-item">
+        <div class="col-md-4 exp-item">
           <figure class="image-link" data-target="#workModal" data-toggle="modal" onclick="loadJSON('viscous')">
             <div class="caption">
               <div class="caption-content mask-center">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid img-exp" src="img/portfolio/viscous1.png" alt="Google Inc.">
+            <img class="img-fluid img-exp" src="img/portfolio/viscous1.png" alt="">
           </figure>
         </div>
 
-        <div class="col-sm-4 exp-item">
+        <div class="col-md-4 exp-item">
           <figure class="image-link" href="#workModal" data-toggle="modal" onclick="loadJSON('json')">
             <div class="caption">
               <div class="caption-content">
@@ -147,9 +150,178 @@
             <img class="img-fluid img-exp" src="img/portfolio/json1.jpg" alt="">
           </figure>
         </div>
+      </div>
     </div>
   </section>
 
+  <!-- Languages -->
+  <section class="exp" id="languages">
+    <div class="container">
+      <h2 class="text-center">Languages</h2>
+      <div class="btn-group" data-toggle="buttons" item-width="70%">
+        <label class="btn btn-primary btn-lg" onclick="toggleLanguages('option1')">
+              <input type="radio" name="language-options" id="option1" autocomplete="off"> Human
+            </label>
+        <label class="btn btn-primary btn-lg" onclick="toggleLanguages('option2')">
+              <input type="radio" name="language-options" id="option2" autocomplete="off"> Programming
+            </label>
+      </div>
+
+    </div>
+    <div id="blk-option1" class="container toHide" style="display: none">
+      <div class="row">
+        <div class="col-md-4 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content">
+                <p>
+                  Spanish
+                  <br> Native Speaker
+                </p>
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/spanish.png" alt="">
+          </figure>
+        </div>
+        <div class="col-md-4 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content mask-center">
+                <p>
+                  English
+                  <br> Academic Level
+                  <br> TOEFL 107/120
+                </p>
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/english.svg" alt="">
+          </figure>
+        </div>
+
+        <div class="col-md-4 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content">
+                Japanese
+                <br> B1 Level
+                <br> 日本語能力試験 N3
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/japanese.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="blk-option2" class="container toHide" style="display: none">
+      <div class="row">
+        <div class="col-md-3 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content">
+                <p>
+                  C/C++
+                  <br> 6 years experience
+                </p>
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/cplusplus.jpg" alt="">
+          </figure>
+        </div>
+        <div class="col-md-3 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content mask-center">
+                <p>
+                  Java
+                  <br> 5 years experience
+                </p>
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/java.png" alt="">
+          </figure>
+        </div>
+        <div class="col-md-3 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content">
+                Python
+                <br> 1.5 years experience
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/Python.png" alt="">
+          </figure>
+        </div>
+        <div class="col-md-3 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content mask-center">
+                <p>
+                  R
+                  <br> 2 years experience
+                </p>
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/r.png" alt="">
+          </figure>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-3 exp-item">
+        <figure class="image-link">
+          <div class="caption">
+            <div class="caption-content mask-center">
+              <p>
+                HTML5/CSS
+                <br> 1 year experience
+              </p>
+            </div>
+          </div>
+          <img class="img-fluid img-exp" src="img/Lang/html.jpg" alt="">
+        </figure>
+      </div>
+      <div class="col-md-3 exp-item">
+        <figure class="image-link">
+          <div class="caption">
+            <div class="caption-content mask-center">
+              <p>
+                JavaScript
+                <br> 1 year experience
+              </p>
+            </div>
+          </div>
+          <img class="img-fluid img-exp" src="img/Lang/javascript.png" alt="">
+        </figure>
+      </div>
+      <div class="col-md-3 exp-item">
+          <figure class="image-link">
+            <div class="caption">
+              <div class="caption-content mask-center">
+                <p>
+                  Matlab
+                  <br> 6 months experience
+                </p>
+              </div>
+            </div>
+            <img class="img-fluid img-exp" src="img/Lang/matlab.png" alt="">
+          </figure>
+        </div>
+        <div class="col-md-3 exp-item">
+            <figure class="image-link">
+              <div class="caption">
+                <div class="caption-content mask-center">
+                  <p>
+                    OZ-Mozart
+                    <br> 6 months experience
+                  </p>
+                </div>
+              </div>
+              <img class="img-fluid img-exp" src="img/Lang/mozart.png" alt="">
+            </figure>
+          </div>
+    </div>
+    </div>
+  </section>
   <!-- Footer -->
   <footer class="text-center">
     <div class="footer-above">
@@ -180,9 +352,13 @@
             </ul>
           </div>
           <div class="footer-col col-md-4">
-            <h3>About Freelancer</h3>
-            <p>Freelance is a free to use, open source Bootstrap theme created by
-              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <h3>Quote:</h3>
+            <p>Afs rtp’k pjg cnyn. Mjv nplv ngae dv mcea kmd acgnn mq tfplg pmj —- bp rzhhnlrt, vqdnaxvv, ycw vfrpe grpcxuk.
+              Bd rql ichy nfn? Ugtyjlg kftr’tv jdggcw. Iag gyhm ceb bxofpxxu rpt ogiw ahpvjn mjzlvl. K umc’m dvjxxxv gc Zqu.
+              Ztvclqt ag umtlp’k fpog r dxqgu ddko. Kft icjr rxtkyxgnp bdxu vvxlv, vttg ke y lhtcb lagic iag wsintv bdxue’r
+              wtxv y ubzvb uhtd. Ckxp zd xm’u scxgi tmahtvb qr ozqjgfvphmcebxgij ycw fvjjlkflh, t rvphhp’j nplv tyc’m dv
+              ycrvygcz dlr iag kpjmj rq ahpx yh ag scabgmch bp zr. Xy vyyi’l yyyi rql zplg pmjk ctrxhpj mg rqlp lta fd abhv
+              mc, bue’r iack jxdg scxgi r btbvp?</p>
           </div>
         </div>
       </div>
@@ -211,22 +387,20 @@
               <div class="modal-body">
                 <h2 id="modal-title">Project Title</h2>
                 <img class="img-fluid img-centered" id="modal-img" src="img/portfolio/google.png" alt="">
-                <p id="modal-description">Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free
-                  set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                <p id="modal-description"></p>
                 <ul id="modal-list" class="list-inline item-details">
                   <li>Position:
                     <strong id="modal-position">
-                        lol
+                     
                       </strong>
                   </li>
                   <li>Date:
                     <strong id="modal-date">
-                        lol2
+                       
                       </strong>
                   </li>
                   <li id="modal-li">
-                      <strong>
+                    <strong>
                           <a href=""  target="_blank" id="modal-link">Link</a>
                         </strong>
                   </li>

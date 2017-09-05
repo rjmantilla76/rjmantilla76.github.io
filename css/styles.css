@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  font-size: 20px; }
+  font-size: 20 px; }
 
 p.small {
   font-size: 16px; }
@@ -73,7 +73,7 @@ hr.star-primary:after {
   margin: 0 auto; }
 
 section {
-  padding: 100px 0; }
+  padding: 50px 0; }
   section h2 {
     font-size: 3em;
     margin: 0; }
@@ -84,8 +84,9 @@ section.success, .altcolor{
   background: -webkit-linear-gradient(#943B1E, #97473A); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#943B1E, #97473A); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#943B1E,#97473A); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#943B1E, #97473A); /* Standard syntax */ }
-
+  background: linear-gradient(#943B1E, #97473A); /* Standard syntax */ 
+  padding: 5px 50px;
+}
 
 .scroll-top {
   position: fixed;
@@ -165,7 +166,7 @@ header.masthead {
 #work .exp-item {
   right: 0;
   margin: 0 0 15px; }
-.exp .exp-item .image-link {
+.exp-item .image-link {
     position: relative;
     display: block;
     max-width: 400px;
@@ -174,46 +175,7 @@ header.masthead {
     margin: 10px 2px;
   }
     
-    .exp .exp-item .image-link .caption {
-      position: absolute;
-      border-radius: 40%;
-      width: 100%;
-      height: 100%;
-      
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
-      opacity: 0;
-      background: #CA987C }
-      .exp .exp-item .image-link .caption:hover {
-        opacity: 1;
-        z-index: 4; }
-      .exp .exp-item .image-link .caption .caption-content {
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        height: 20px;
-        margin-top: -12px;
-        text-align: center;
-        color: #E1D8D3; 
-        z-index: 4;
-      }
-        .exp .exp-item .image-link .caption .caption-content i {
-          margin-top: -12px; }
-        .exp .exp-item .image-link .caption .caption-content h3,
-        .exp .exp-item .image-link .caption .caption-content h4 {
-          margin: 0; }
-          .exp .exp-item .image-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer; 
-    margin: 10px 2px;
-  }
-    
-    .exp .exp-item .image-link .caption {
+    .exp-item .image-link .caption {
       position: absolute;
       border-radius: 20%;
       width: 100%;
@@ -224,102 +186,25 @@ header.masthead {
       transition: all ease 0.5s;
       opacity: 0;
       background: #CA987C }
-      .exp .exp-item .image-link .caption:hover {
+      .exp-item .image-link .caption:hover {
         opacity: 1;
         z-index: 4; }
-      .exp .exp-item .image-link .caption .caption-content {
+      .exp-item .image-link .caption .caption-content {
         font-size: 20px;
         position: absolute;
-        top: 50%;
+        top: 30%;
         width: 100%;
         height: 20px;
-        margin-top: -12px;
+        
         text-align: center;
         color: #E1D8D3; 
         z-index: 4;
       }
-        .exp .exp-item .image-link .caption .caption-content i {
+        .exp-item .image-link .caption .caption-content i {
           margin-top: -12px; }
-        .exp .exp-item .image-link .caption .caption-content h3,
-        .exp .exp-item .image-link .caption .caption-content h4 {
-          margin: 0; }.exp .exp-item .image-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer; 
-    margin: 10px 2px;
-  }
-    
-    .exp .exp-item .image-link .caption {
-      position: absolute;
-      border-radius: 20%;
-      width: 100%;
-      height: 100%;
-      
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
-      opacity: 0;
-      background: #CA987C }
-      .exp .exp-item .image-link .caption:hover {
-        opacity: 1;
-        z-index: 4; }
-      .exp .exp-item .image-link .caption .caption-content {
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        height: 20px;
-        margin-top: -12px;
-        text-align: center;
-        color: #E1D8D3; 
-        z-index: 4;
-      }
-        .exp .exp-item .image-link .caption .caption-content i {
-          margin-top: -12px; }
-        .exp .exp-item .image-link .caption .caption-content h3,
-        .exp .exp-item .image-link .caption .caption-content h4 {
+        .exp-item .image-link .caption .caption-content h3,
+        .exp-item .image-link .caption .caption-content h4 {
           margin: 0; }
-          .success .exp-item .image-link {
-            position: relative;
-            display: block;
-            max-width: 400px;
-            margin: 0 auto;
-            cursor: pointer; 
-            margin: 10px 2px;
-          }
-            
-            .success .exp-item .image-link .caption {
-              position: absolute;
-              border-radius: 20%;
-              width: 100%;
-              height: 100%;
-              
-              -webkit-transition: all ease 0.5s;
-              -moz-transition: all ease 0.5s;
-              transition: all ease 0.5s;
-              opacity: 0;
-              background: #CA987C }
-              .success .exp-item .image-link .caption:hover {
-                opacity: 1;
-                z-index: 4; }
-              .success .exp-item .image-link .caption .caption-content {
-                font-size: 20px;
-                position: absolute;
-                top: 50%;
-                width: 100%;
-                height: 20px;
-                margin-top: -12px;
-                text-align: center;
-                color: #E1D8D3; 
-                z-index: 4;
-              }
-                .success .exp-item .image-link .caption .caption-content i {
-                  margin-top: -12px; }
-                .success .exp-item .image-link .caption .caption-content h3,
-                .success .exp-item .image-link .caption .caption-content h4 {
-                  margin: 0; }
 
 .exp * {
   z-index: 2; }
@@ -458,18 +343,20 @@ footer {
 .btn-primary {
   font-weight: 700;
   color: #E1D8D3;
-  border-color: #2C1900;
-  background-color: #2C1900; }
+  border-color: #CA987C;
+  background-color: #CA987C; }
   .btn-primary.focus, .btn-primary:focus {
     color: #E1D8D3;
-    border-color: black;
-    background-color: #1a252f; }
+    border-color: #CA987C;
+    background-color: #CA987C; }
   .btn-primary:hover {
     color: #E1D8D3;
-    border-color: #161f29;
-    background-color: #1a252f; }
+    border-color: black;
+    background-color: #97473A; }
   .btn-primary.active, .btn-primary:active,
-  .open > .btn-primary.dropdown-toggle {
+  .open > .btn-primary.dropdown-toggle 
+  {
+    box-shadow: black;
     color: #E1D8D3;
     border-color: #161f29;
     background-color: #1a252f; }
@@ -478,17 +365,20 @@ footer {
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: #E1D8D3;
+      box-shadow: black;
       border-color: black;
       background-color: #0d1318; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
+    
   .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
     border-color: #2C1900;
-    background-color: #2C1900; }
+    background-color: #2C1900;
+    box-shadow: black; }
   .btn-primary .badge {
     color: #2C1900;
     background-color: #E1D8D3; }
@@ -500,17 +390,17 @@ footer {
   background-color: #943B1E; }
   .btn-success.focus, .btn-success:focus {
     color: #E1D8D3;
-    border-color: #0a4b3e;
-    background-color: #128f76; }
+    border-color: #0d1318;
+    background-color: #0d1318; }
   .btn-success:hover {
     color: #E1D8D3;
-    border-color: #11866f;
-    background-color: #128f76; }
+    border-color: #0d1318;
+    background-color: #0d1318; }
   .btn-success.active, .btn-success:active,
   .open > .btn-success.dropdown-toggle {
     color: #E1D8D3;
-    border-color: #11866f;
-    background-color: #128f76; }
+    border-color: #0d1318;
+    background-color: #0d1318; }
     .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover,
     .open > .btn-success.dropdown-toggle.focus,
     .open > .btn-success.dropdown-toggle:focus,
@@ -552,5 +442,13 @@ footer {
 }
 
 .img-exp {
-  border-radius: 40%
+  border-radius: 20%
 }
+
+.lang-prog{
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  
+}
+
+

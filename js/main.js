@@ -34,6 +34,7 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });
+ 
   
 })(jQuery); // End of use strict
 var main = function(){
@@ -55,6 +56,10 @@ var main = function(){
   
 };
 $(document).ready(main());
+function toggleLanguages(option){
+  $('.toHide').hide();
+  $("#blk-"+option).show('slow');
+}
 function loadJSON(name){
   $.getJSON("./jsons/"+name+".json", function(data){
     $('#modal-title').text(data.title);
